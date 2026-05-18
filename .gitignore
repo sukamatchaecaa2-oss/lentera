@@ -5,4 +5,13 @@ coverage/
 .DS_Store
 *.log
 .env*
-!.env.example
+!.env.ex
+{
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
