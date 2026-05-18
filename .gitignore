@@ -6,12 +6,3 @@ coverage/
 *.log
 .env*
 !.env.ex
-{
-  "framework": "vite",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
